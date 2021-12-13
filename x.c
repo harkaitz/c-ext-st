@@ -2114,6 +2114,7 @@ main(int argc, char *argv[])
 	xw.l = xw.t = 0;
 	xw.isfixed = False;
 	xsetcursor(cursorshape);
+        setenv("LANG", "en_US.UTF-8", 1);
 
 	ARGBEGIN {
 	case 'a':
