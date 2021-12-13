@@ -5,7 +5,21 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "monospace:pixelsize=16";
+//static char *font = "JetBrains Mono,JetBrains Mono ExtraBold style=ExtraBold,Regular";
+//static char *font = "Liberation Mono:pixelsize=14:antialias=true:autohint=true";
+//static char *font = "Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true";
+//static char *font = "Symbola:pixelsize=14:antialias=true:autohint=true";
+//static char *font = "Bitstream Vera Sans Mono:pixelsize=11:antialias=true:autohint=true";
+//static char *font = "JetBrains Mono Medium;pixelsize=15:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+    //"Symbola:pixelsize=12:antialias=true:autohint=true"
+    // "Noto Color Emoji:style=Regular"
+/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+};
+
 static int borderpx = 2;
 
 /*
